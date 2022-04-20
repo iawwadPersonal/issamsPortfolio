@@ -41,13 +41,13 @@ const Page = () => {
 	 Work
 	</Heading>
 	<Paragraph>Issam is a Certified Salesforce Developer with a full passion for technology. From building solutions on the Salesforce platform to learning new technology trends. An aspiring writer and love to read anything Fantasy, history, and manga. Currently, product called {' '}
-	<NextLink href="/works/inkdrop">
+	<NextLink href="/works/inkdrop" passHref>
 	  <Link>Inkdrop</Link>
 	</NextLink>
 	.
 	</Paragraph>
 	<Box align="center" my={4}>
-	  <NextLink href="/works">
+	  <NextLink href="/works" passHref>
 	<Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
 	My Portfolio
 	</Button>
