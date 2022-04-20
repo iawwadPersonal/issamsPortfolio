@@ -21,7 +21,7 @@ const Logo = () => {
   const dragonImg = `/images/blueDragon${useColorModeValue('', '-dark')}.png`
 
   return(
-    <Link href="/">
+    <Link href="/" passHref>
       <a>
         <LogoBox>
        <Image src={dragonImg} width={20} height={20} alt="logo"/>

@@ -80,7 +80,7 @@ const Page = () => {
             I &hearts;
           </Heading>
           <Paragraph>
-                <Link href="https://goodreads.com/issamslibrary" target="_blank">
+                <Link href="https://goodreads.com/issamslibrary" target="_blank"passHref>
                 Reading, Writing
                 </Link>
                 , WeightLifting, and fast cars
@@ -93,14 +93,14 @@ const Page = () => {
 	  </Heading>
 	  <List>
 	  <ListItem>
-	  <Link href="https://github.com" target="_blank">
+	  <Link href="https://github.com" target="_blank" passHref>
 	  <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub}/>}>
 	  @iawwad
 	   </Button>
 	  </Link>
 	  </ListItem>
 	  <ListItem>
-          <Link href="https://instagram.com/issam__aw/" target="_blank">
+          <Link href="https://instagram.com/issam__aw/" target="_blank" passHref>
           <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram}/>}>
           @issam__aw
            </Button>
