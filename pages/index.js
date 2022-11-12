@@ -41,8 +41,8 @@ const Page = () => {
 	 Work
 	</Heading>
 	<Paragraph>Issam is a Certified Salesforce Developer with a full passion for technology. From building solutions on the Salesforce platform to learning new technology trends. An aspiring writer and love to read anything Fantasy, history, and manga. Currently, product called {' '}
-	<NextLink href="/works/inkdrop" passHref>
-	  <Link>Inkdrop</Link>
+	<NextLink href="/works/firstProject" passHref>
+	  <Link>First Project</Link>
 	</NextLink>
 	.
 	</Paragraph>
